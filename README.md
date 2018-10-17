@@ -1,2 +1,3 @@
-# git-sandbox
-Git Sandbox
+# Git Sandbox
+
+A repository to test Git stuff.
