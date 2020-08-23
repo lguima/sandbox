@@ -6,12 +6,14 @@ name: GitFlow
 # Triggers the workflow on pull request events but only for the master branch.
 on:
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+      - develop
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "release"
-  release:
+  gitflow:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -20,9 +22,19 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    # Allow a new pull request to the develop branch
+    - name: Allow a new pull request to the develop branch
+      if: ${{ github.base_ref == 'develop' }}
+      run: exit 0
+
+    # Allow a new release from the develop branch
+    - name: Allow a new release from the develop branch
+      if: ${{ github.head_ref == 'develop' && github.base_ref == 'master' }}
+      run: exit 0
+
     # Restrict a new release to be only from the develop branch
-    - name: Release restriction for GitFlow
-      if: ${{ github.head_ref != 'develop' }}
+    - name: Restrict a new release to be only from the develop branch
+      if: ${{ github.head_ref != 'develop' && github.base_ref == 'master' }}
       run: |
         echo "A release must be from the develop branch"
         exit 1
