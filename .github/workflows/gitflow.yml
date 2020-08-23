@@ -20,8 +20,8 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Restrict the releases to be only from develop branch
-    - name: Releases restriction for GitFlow
+    # Restrict a new release to be only from the develop branch
+    - name: Release restriction for GitFlow
       if: ${{ github.head_ref != 'develop' }}
       run: |
         echo "A release must be from the develop branch"
