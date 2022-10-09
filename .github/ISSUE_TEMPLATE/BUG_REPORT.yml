@@ -1,5 +1,5 @@
-name: 🐞 Bug Report
-description: Create a report to help us improve
+name: 🐞 Relato de problema
+description: Informe um problema encontrado
 title: "<title>"
 labels: [bug]
 body:
