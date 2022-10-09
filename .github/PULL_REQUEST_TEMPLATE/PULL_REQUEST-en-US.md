@@ -1,9 +1,39 @@
 **English (US)** | [Português (BR)](?quick_pull=1)
 
-## Verifications
-
-Check the verifications below.
+## Community
 
 * [ ] I have read and followed the [Contribution Guide](.github/CONTRIBUTING.md).
 * [ ] I have read and followed the [Code of Conduct](.github/CODE_OF_CONDUCT.md).
-* [ ] I checked that there is no other [Pull Request](/pulls) for the same change.
+
+## Type of change
+
+* [ ] 🐞 Bug fix
+* [ ] ✨ Improvement or New feature
+
+## Related issued
+Issues related to this Pull Request.
+
+<!--
+Consider opening an issue related to the change or talk to someone to open so we can keep the changes mapped.
+
+In case this Pull Request resolves any existing issues, link them using a keyword so when this is merged the issue will be closed.
+
+Ex.: Solves #123
+
+More details: https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
+-->
+
+## Usability
+
+* [ ] I checked the Accessibility after the implementation
+* [ ] I checked the Responsive layout after the implementation
+
+## Evidences
+Attach any evidences from before and after the change (when necessary).
+
+<!-- You can drag and drop images here. -->
+
+## Documentation
+
+* [ ] The documentation of this repository was updated (when necessary).
+* [ ] This change requires the update of an external documentation.
