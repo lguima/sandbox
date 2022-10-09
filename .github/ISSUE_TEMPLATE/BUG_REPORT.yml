@@ -5,10 +5,10 @@ labels: [bug]
 body:
 - type: checkboxes
   attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
+    label: Há uma issue existente para isso?
+    description: Procure, por favor, para verificar se já existe uma issue para o problema encontrado.
     options:
-    - label: I have searched the existing issues
+    - label: Eu pesquisei issues existentes
       required: true
 - type: textarea
   attributes:
