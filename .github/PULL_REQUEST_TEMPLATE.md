@@ -16,7 +16,7 @@ Issues que são relacionadas a esta Pull Request.
 <!--
 Considere abrir uma issue relacionada à alteração ou conversar com alguém para que seja aberta e assim termos mapeadas as alterações.
 
-Caso esta Pull Request resolva uma issue existente, vincule-as com uma palavra-chave para que ao ser mergeada, a issue seja fechada.
+Caso esta Pull Request resolva uma ou mais issues existentes, vincule-as com uma palavra-chave para que ao ser mergeada, a issue seja fechada.
 
 Ex.: Resolve #123
 
