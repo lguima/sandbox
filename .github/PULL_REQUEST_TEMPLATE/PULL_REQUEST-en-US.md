@@ -1,9 +1,9 @@
-**English (US)** | [Português (BR)](PULL_REQUEST_TEMPLATE.md)
+**English (US)** | [Português (BR)](../PULL_REQUEST_TEMPLATE.md)
 
-## Verificações
+## Verifications
 
-Assinale as verificações abaixo.
+Check the verifications below.
 
-* [ ] Eu li e segui o [Guia de Contribuição](.github/CONTRIBUTING.md).
-* [ ] Eu li e segui o [Código de Conduta](.github/CODE_OF_CONDUCT.md).
-* [ ] Eu confirmei que não há outra [Pull Request](/pulls) para a mesma alteração.
+* [ ] I have read and followed the [Contribution Guide](.github/CONTRIBUTING.md).
+* [ ] I have read and followed the [Code of Conduct](.github/CODE_OF_CONDUCT.md).
+* [ ] I checked that there is no other [Pull Request](/pulls) for the same change.
