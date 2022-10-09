@@ -24,16 +24,27 @@ jobs:
 
     # Allow a new pull request to the develop branch
     - name: Allow a new pull request to the develop branch
+      run: |
+        echo "from_ ${{ github.head_ref }}"
+        echo "to_ ${{ github.base_ref }}"
       if: ${{ github.base_ref == 'develop' }}
       run: exit 0
 
     # Allow a new release from the develop branch
     - name: Allow a new release from the develop branch
+      run: |
+        echo "from_ ${{ github.head_ref }}"
+        echo "to_ ${{ github.base_ref }}"
+        echo "success_ ${{ success() }}"
       if: ${{ github.head_ref == 'develop' && github.base_ref == 'master' }}
       run: exit 0
 
     # Restrict a new release to be only from the develop branch
     - name: Restrict a new release to be only from the develop branch
+      run: |
+        echo "from_ ${{ github.head_ref }}"
+        echo "to_ ${{ github.base_ref }}"
+        echo "success_ ${{ success() }}"
       if: ${{ github.head_ref != 'develop' && github.base_ref == 'master' }}
       run: |
         echo "A release must be from the develop branch"
