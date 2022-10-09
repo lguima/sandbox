@@ -6,6 +6,7 @@ body:
   attributes:
     value: |
       Agradecemos por reportar este problema! 🐛
+      
       Caso você precise de ajuda em tempo real, participe da [comunidade no Discord](http://www.google.com).
 - type: textarea
   attributes:
