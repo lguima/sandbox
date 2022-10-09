@@ -1,2 +1,2 @@
 # sandbox
-Sandbox for experiments.
+Sandbox for experiments with Git and GitHub.
