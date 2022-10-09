@@ -47,5 +47,10 @@ jobs:
         echo "success_ ${{ success() }}"
       if: ${{ github.head_ref != 'develop' && github.base_ref == 'master' }}
       run: |
-        echo "A release must be from the develop branch"
-        exit 1
+        echo "from_ ${{ github.head_ref }}"
+        echo "to_ ${{ github.base_ref }}"
+        echo "success_ ${{ success() }}"
+      #if: ${{ github.head_ref != 'develop' && github.base_ref == 'master' }}
+      #run: |
+        #echo "A release must be from the develop branch"
+        #exit 1
