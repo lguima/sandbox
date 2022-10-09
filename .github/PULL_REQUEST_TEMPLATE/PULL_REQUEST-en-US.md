@@ -1,4 +1,4 @@
-**English (US)** | [Português (BR)](../PULL_REQUEST_TEMPLATE.md)
+**English (US)** | [Português (BR)](?quick_pull=1)
 
 ## Verifications
 
