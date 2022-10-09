@@ -6,6 +6,7 @@ body:
   attributes:
     value: |
       Agradecemos por sugerir esta ideia! 💡
+      
       Conte-nos mais sobre ela abaixo.
 - type: textarea
   attributes:
