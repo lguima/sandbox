@@ -1,0 +1,39 @@
+name: ❓ Dúvida
+description: Pergunte alguma dúvida que tenha
+labels: [question]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Agradecemos por nos reportar este problema! Caso você precise de ajuda em tempo real, participe com a gente do [Discord](http://www.google.com)
+- type: textarea
+  attributes:
+    label: Passos para reproduzir
+    description: Passos para reproduzir o problema.
+    placeholder: |
+      1. 
+      2. 
+      3. 
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Comportamento atual
+    description: Uma descrição concisa do que está acontecendo.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Comportamento esperado
+    description: Uma descrição concisa do que era esperado acontecer.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Informações adicionais
+    description: |
+      Prints, termos pesquisados, cidade, período, qualquer coisa que nos dê um maior contexto sobre o problema encontrado.
+
+      Dica: Você pode anexar imagens clicando nesta área para ativá-la e arrastando os arquivos para cá.
+  validations:
+    required: false
