@@ -32,7 +32,7 @@ body:
   attributes:
     label: Informações adicionais
     description: |
-      Prints, termos pesquisados, cidade, período, qualquer coisa que nos dê um maior contexto sobre o problema encontrado.
+      Prints, termos pesquisados, cidade, período, qualquer informação que nos dê um maior contexto sobre o problema encontrado.
 
       Dica: Você pode anexar imagens clicando nesta área para ativá-la e arrastando os arquivos para cá.
   validations:
