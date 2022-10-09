@@ -2,6 +2,10 @@ name: 🐞 Relato de problema
 description: Informe um problema encontrado
 labels: [bug]
 body:
+- type: markdown
+  attributes:
+    value: |
+      Agradecemos por nos reportar este problema! Caso você precise de ajuda em tempo real, participe com a gente do [Discord](http://www.google.com)
 - type: textarea
   attributes:
     label: Passos para reproduzir
@@ -24,8 +28,8 @@ body:
   attributes:
     label: Informações adicionais
     description: |
-      Links? References? Anything that will give us more context about the issue you are encountering!
+      Página, termo pesquisado, cidade, período, qualquer coisa que nos dê um maior contexto sobre o problema encontrado.
 
-      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+      Dica: Você pode anexar imagens clicando nesta área para ativá-la e arrastando os arquivos para cá.
   validations:
     required: false
