@@ -29,11 +29,11 @@ Mais informações: https://docs.github.com/pt/issues/tracking-your-work-with-is
 * [ ] Verifiquei a Responsividade após a implemetação
 
 ## Evidências
-Anexe evidências do antes e do depois da alteração, quando necessário.
+Anexe evidências do antes e do depois da alteração (quando necessário).
 
 <!-- Você pode arrastar imagens para cá. -->
 
 ## Documentação
 
-* [ ] A documentação deste repositório foi atualizada (caso necessário)
-* [ ] Esta alteração requer que a documentação externa seja atualizada
+* [ ] A documentação deste repositório foi atualizada (quando necessário).
+* [ ] Esta alteração requer que a documentação externa seja atualizada.
