@@ -8,6 +8,8 @@ body:
       Agradecemos por reportar este problema! 🐛
       
       Caso você precise de ajuda em tempo real, participe da [comunidade no Discord](http://www.google.com).
+      
+      Não sendo o caso, conte-nos mais abaixo.
 - type: textarea
   attributes:
     label: Passos para reproduzir
