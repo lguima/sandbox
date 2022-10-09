@@ -26,7 +26,7 @@ Mais informações: https://docs.github.com/pt/issues/tracking-your-work-with-is
 ## Usabilidade
 
 * [ ] Verifiquei a Acessibilidade após a implementação
-* [ ] Verifiquei a Responsividade após a implemetação
+* [ ] Verifiquei o Layout responsivo após a implemetação
 
 ## Evidências
 Anexe evidências do antes e do depois da alteração (quando necessário).
