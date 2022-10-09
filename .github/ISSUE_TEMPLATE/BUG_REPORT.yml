@@ -1,6 +1,5 @@
 name: 🐞 Relato de problema
 description: Informe um problema encontrado
-title: "<title>"
 labels: [bug]
 body:
 - type: textarea
