@@ -5,7 +5,8 @@ body:
 - type: markdown
   attributes:
     value: |
-      Agradecemos por nos reportar este problema! Caso você precise de ajuda em tempo real, participe com a gente do [Discord](http://www.google.com)
+      Agradecemos por nos reportar este problema!
+      Caso você precise de ajuda em tempo real, participe da [comunidade no Discord](http://www.google.com).
 - type: textarea
   attributes:
     label: Passos para reproduzir
