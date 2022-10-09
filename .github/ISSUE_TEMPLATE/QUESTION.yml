@@ -6,6 +6,7 @@ body:
   attributes:
     value: |
       Para ajuda em tempo real, recomendamos participar da nossa [comunidade no Discord](http://www.google.com).
+      Caso prefira enviar por aqui, use o campo abaixo.
 - type: textarea
   attributes:
     label: Dúvida
