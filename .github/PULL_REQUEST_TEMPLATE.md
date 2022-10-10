@@ -25,9 +25,9 @@ Mais informações: https://docs.github.com/pt/issues/tracking-your-work-with-is
 
 ## Validação
 
+* [ ] Validei a alteração no link gerado pelo bot da Netlify (Deploy Preview/Preview on mobile)
 * [ ] Validei o Layout responsivo (desktop/mobile) após a implementação
 * [ ] Verifiquei o registro do deploy (Latest deploy log) e nenhum novo alerta ou erro foi adicionado
-* [ ] Validei a alteração no link gerado pelo bot da Netlify (Deploy Preview/Preview on mobile)
 
 ## Evidências
 Anexe evidências do antes e do depois da alteração (quando necessário).
